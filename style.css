@@ -1,0 +1,68 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing:border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.book-section{
+    margin-top: 50px;
+}
+/* .inside-div{
+    width:270px;
+    height:270px;
+ } */
+ .inside-div:hover{
+     box-shadow:5px 5px 16px lightgray;
+     border-radius:10px;
+ }  
+.inside-div a img{
+    display: block;
+    margin:0 auto;
+    
+}
+.inside-div h6{
+    
+    font-weight:bold;
+    text-align:center;
+    font-size:1.6em;
+}
+.inside-div p{
+    text-align:center;
+    color:gray;
+}
+
+/*-------------------card-----------------*/
+
+.card-section{
+    margin-top:50px;
+}
+.container h2{
+    color:#413960;
+    font-weight:700;
+    font-size:36px;
+    text-align:center;
+    margin-top:50px;
+}
+.card{
+    border:none;
+    box-shadow:10px 5px 10px lightgray;
+    border-radius:10px
+    
+}
+.card-footer{
+    background:none;
+    border-top:0px;
+}
+.card-footer p{
+    color:#585859;
+    font-size:16px;
+}
+/* -------------------Card-section-end------------------*/
+
